@@ -1,0 +1,144 @@
+2013-02-21 11:27:45 Error: [MissingControllerException] Controller class HtmlsController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlsController',
+  'plugin' => NULL,
+)
+Request URL: /htmls/about_us
+Stack Trace:
+#0 D:\projects\testingMySite\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-21 11:29:12 Error: [MissingViewException] View file "D:\projects\testingMySite\app\View\Pages\about_us.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projects\\testingMySite\\app\\View\\Pages\\about_us.ctp',
+)
+Request URL: /htmls/about_us
+Stack Trace:
+#0 D:\projects\testingMySite\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 D:\projects\testingMySite\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 D:\projects\testingMySite\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 D:\projects\testingMySite\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HtmlsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\projects\testingMySite\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-21 11:29:47 Error: [MissingViewException] View file "D:\projects\testingMySite\app\View\Pages\about_us.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projects\\testingMySite\\app\\View\\Pages\\about_us.ctp',
+)
+Request URL: /htmls/about_us
+Stack Trace:
+#0 D:\projects\testingMySite\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 D:\projects\testingMySite\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 D:\projects\testingMySite\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 D:\projects\testingMySite\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HtmlsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\projects\testingMySite\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-21 11:29:50 Error: [MissingViewException] View file "D:\projects\testingMySite\app\View\Pages\about_us.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projects\\testingMySite\\app\\View\\Pages\\about_us.ctp',
+)
+Request URL: /htmls/about_us
+Stack Trace:
+#0 D:\projects\testingMySite\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 D:\projects\testingMySite\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 D:\projects\testingMySite\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 D:\projects\testingMySite\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HtmlsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\projects\testingMySite\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-21 11:30:34 Error: [MissingViewException] View file "D:\projects\testingMySite\app\View\Pages\about_us.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\projects\\testingMySite\\app\\View\\Pages\\about_us.ctp',
+)
+Request URL: /htmls/about_us
+Stack Trace:
+#0 D:\projects\testingMySite\lib\Cake\View\View.php(467): View->_getViewFileName(NULL)
+#1 D:\projects\testingMySite\lib\Cake\Controller\Controller.php(947): View->render(NULL, NULL)
+#2 D:\projects\testingMySite\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 D:\projects\testingMySite\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HtmlsController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\projects\testingMySite\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-21 11:34:40 Error: Fatal Error (1): Call to a member function allow() on a non-object in [D:\projects\testingMySite\app\Controller\HtmlsController.php, line 35]
+2013-02-21 11:34:40 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /htmls/about_us
+Stack Trace:
+#0 D:\projects\testingMySite\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\projects\tes...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\projects\tes...', 35, Array)
+#2 D:\projects\testingMySite\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\projects\tes...', 35, Array)
+#3 D:\projects\testingMySite\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-21 11:35:14 Error: Fatal Error (1): Call to a member function allow() on a non-object in [D:\projects\testingMySite\app\Controller\HtmlsController.php, line 36]
+2013-02-21 11:35:14 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /htmls/about_us
+Stack Trace:
+#0 D:\projects\testingMySite\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\projects\tes...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\projects\tes...', 36, Array)
+#2 D:\projects\testingMySite\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\projects\tes...', 36, Array)
+#3 D:\projects\testingMySite\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-21 11:46:16 Error: Fatal Error (1): Unsupported operand types in [D:\projects\testingMySite\lib\Cake\View\Helper\HtmlHelper.php, line 410]
+2013-02-21 11:46:16 Error: [FatalErrorException] Unsupported operand types
+Request URL: /htmls/about_us
+Stack Trace:
+#0 D:\projects\testingMySite\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'D:\projects\tes...', 410)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'D:\projects\tes...', 410, Array)
+#2 D:\projects\testingMySite\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'D:\projects\tes...', 410, Array)
+#3 D:\projects\testingMySite\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-21 11:46:21 Error: Fatal Error (1): Unsupported operand types in [D:\projects\testingMySite\lib\Cake\View\Helper\HtmlHelper.php, line 410]
+2013-02-21 11:46:21 Error: [FatalErrorException] Unsupported operand types
+Request URL: /htmls/about_us
+Stack Trace:
+#0 D:\projects\testingMySite\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Unsupported ope...', 'D:\projects\tes...', 410)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', 'D:\projects\tes...', 410, Array)
+#2 D:\projects\testingMySite\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', 'D:\projects\tes...', 410, Array)
+#3 D:\projects\testingMySite\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-21 12:10:31 Error: [MissingControllerException] Controller class ProductsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductsController',
+  'plugin' => NULL,
+)
+Request URL: /products/products_users/dashboard
+Stack Trace:
+#0 D:\projects\testingMySite\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-21 12:48:33 Error: [MissingControllerException] Controller class HtmlController could not be found.
+Exception Attributes: array (
+  'class' => 'HtmlController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 D:\projects\testingMySite\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-21 13:01:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/products/290X80.png
+Stack Trace:
+#0 D:\projects\testingMySite\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-21 14:21:25 Error: Fatal Error (1): Call to undefined method View::input() in [D:\projects\testingMySite\app\View\Htmls\contact.ctp, line 6]
+2013-02-21 14:21:25 Error: [FatalErrorException] Call to undefined method View::input()
+Request URL: /htmls/contact
+Stack Trace:
+#0 D:\projects\testingMySite\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'D:\projects\tes...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'D:\projects\tes...', 6, Array)
+#2 D:\projects\testingMySite\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'D:\projects\tes...', 6, Array)
+#3 D:\projects\testingMySite\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-21 14:35:43 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [D:\projects\testingMySite\app\View\Htmls\contact.ctp, line 6]
+2013-02-21 14:35:43 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /htmls/contact
+Stack Trace:
+#0 D:\projects\testingMySite\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\projects\tes...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\projects\tes...', 6, Array)
+#2 D:\projects\testingMySite\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\projects\tes...', 6, Array)
+#3 D:\projects\testingMySite\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

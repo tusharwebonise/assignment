@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    min-height: 100%;
+}
+.mainOutCnt {
+    min-height: 100%;
+    position: relative;
+}
+.footer {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    min-height: 60px;
+    padding: 20px 0;
+    border-width: 1px 0;
+    cursor: default;
+    background: rgba(225, 225, 225, 0.1)
+}
+.footer a, .footer a:hover, .footer a:focus  {
+    padding: 0 10px;
+    outline: none;
+    text-decoration: none
+}
+.outerWrap {
+    padding-bottom: 120px;
+}
+.topHeader {
+    padding-bottom: 15px;
+    padding-top: 15px
+}
+.headRightCnt {
+    text-align: right
+}
+h1 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 30px
+}
+.aboutSachin .controls {
+    padding-top: 5px
+}
+.aboutSachin .control-label {
+    font-weight: bold;
+}
+.table th {
+    background: #515B66
+}
